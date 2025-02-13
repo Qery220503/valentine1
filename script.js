@@ -10,13 +10,13 @@ document.getElementById("btnNo").addEventListener("mouseover", function () {
 document.getElementById("btnSi").addEventListener("click", function () {
   Swal.fire({
     position: "top-center",
-    title: "Soy el hombre mas feliz del mundo🥰",
+    title: "Nos vemos el 14 :D!!",
     showConfirmButton: false,
     timer: 1500,
   });
 
   var parrafo = document.querySelector("#cuadroDialogo p");
-  parrafo.textContent = "El inicio de una hermosa historia ha comenzado...";
+  parrafo.textContent = "Dime que te pareció por wpp...";
   document.getElementById("btnNo").style.display = "none";
 
   window.requestAnimationFrame =
