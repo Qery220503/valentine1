@@ -10,7 +10,7 @@ document.getElementById("btnNo").addEventListener("mouseover", function () {
 document.getElementById("btnSi").addEventListener("click", function () {
   Swal.fire({
     position: "top-center",
-    title: "Nos vemos el 14 :D!!",
+    title: "Victoria <br> Nos vemos el 14 :D!!",
     showConfirmButton: false,
     timer: 1500,
   });
